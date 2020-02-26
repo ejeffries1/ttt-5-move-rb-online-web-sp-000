@@ -9,5 +9,5 @@ board = Array.new(9, " ")
 user_input = gets.strip
 input_to_index(user_input)
 index = user_input
-move(board, index, char = "X" )
+move(board, index)
 display_board(board)
